@@ -1,0 +1,230 @@
+*,body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header section Starts */
+
+#firstHeader {
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 100%;
+}
+.flex-header {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 240px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.text-container p {
+  margin: 0;
+}
+.flex-header i {
+  font-size: 30px;
+  margin-right: 10px;
+  color: rgb(138, 9, 9);
+}
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.custom-select-wrapper {
+  position: relative;
+  width: 200px;
+  user-select: none;
+}
+
+#Country {
+  display: none; /* Hide the default select */
+}
+
+.custom-select {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-select-trigger {
+  background-color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.custom-select-trigger img {
+  width: 50px;
+  height: 30px;
+}
+
+.custom-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.custom-options .custom-option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.custom-options .custom-option img {
+  width: 50px;
+  height: 30px;
+  /* margin-top: 10px; */
+}
+
+.custom-options .custom-option:hover {
+  background-color: #f1f1f1;
+}
+
+.custom-select.open .custom-options {
+  display: block;
+}
+/* <!-- First header complete --> */
+
+/* <!-- Main header starts --> */
+#header {
+    background-image: url(/images/backimg.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+}
+
+/* <!-- Main header Ends --> */
+.navbar {
+    overflow: hidden;
+    background-color: #2fc3f4;
+    
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;    
+
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #fff;
+    color: black;
+
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.search-btn{
+    background-color: #1970c8;
+    width: 200px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.navbar input{
+    border: none;
+    background-color: transparent;
+    color:#fff;
+}
+.navbar input::placeholder{
+    color: white;
+}
+.navbar i{
+    color: #fff;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.banner-content{
+    padding-top: 5%;
+    padding-left: 10% !important;
+    color: #fff;
+}
+.disease-img{
+   width: 40%;
+   height: 420px;
+   border-radius: 45%;
+   border-bottom-right-radius: 0;
+   border-top-right-radius: 0;
+   right: 0;
+   position: absolute;
+   border-left: 16px solid #1970c8;
+}
+.breadcrumb{
+    color: #fff;
+}
+.right-arrow{
+    margin-left: 5px;
+    color:rgb(138, 9, 9);
+}
+.banner-content a{
+    text-decoration: none;
+    background-color: #1970c8;
+    color: #fff;
+    padding: 15px 25px;
+    font-weight: 700;
+}
+.banner-content p{
+    margin-bottom: 50px;
+}
+
+
+
+@media (max-width: 768px) {
+    .disease-img {
+        display: none;
+    }
+}
