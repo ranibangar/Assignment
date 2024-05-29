@@ -1,6 +1,8 @@
 *,body {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Header section Starts */
@@ -221,10 +223,119 @@ body {
     margin-bottom: 50px;
 }
 
-
-
 @media (max-width: 768px) {
     .disease-img {
         display: none;
     }
 }
+
+/* main body starts */
+
+.features{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+.features a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight:500 ;
+  flex: 0 1 auto;
+  position: relative;
+  margin-bottom: 50px;
+}
+.features a:focus::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #2fc3f4;
+  position: absolute;
+  left: 0;
+  transition: width 0.3s;
+}
+@media (max-width: 768px) {
+  .features a {
+    flex: 1 1 calc(50% - 20px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .features a {
+    flex: 1 1 calc(100% - 20px);
+    font-size: 18px; 
+  }
+}
+.heading{
+  margin-top: 30px;
+}
+
+#overview p{
+  margin-top: 30px;
+}
+#overview img{
+  width: 100%;
+  height:350px;
+}
+.horizontal{
+  border: 1px dashed #2fc3f4;
+  margin-top: 30px;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
+.article{
+  width: 60%;
+}
+.side-form{
+  width: 30%;
+}
+@media (max-width: 1024px) {
+  .article, .side-form {
+    width: 100%;
+  }
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+  .article, .side-form {
+    width: 100%;
+  }
+}
+.heading ul{
+  margin-top: 20px;
+  list-style-type: none;
+}
+.heading ul li{
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.heading ul li::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border:1px solid #2fc3f4;
+  border-radius: 50%;
+}
+.accordion{
+  border-bottom: 1px solid lightgray;
+}
+.accordion-symbol {
+  content: "+";
+  color: #2fc3f4;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+/* main body Ends */

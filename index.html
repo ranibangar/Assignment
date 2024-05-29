@@ -82,63 +82,382 @@
     </section>
     <!-- First header complete -->
     <!-- Main header starts -->
-   
-        <section id="header">
-            <div class="navbar">
-              <a href="#home" onclick="updateBreadcrumb('Home')">Home</a>
-              <a href="#about" onclick="updateBreadcrumb('About Us')">About Us</a>
-              <div class="dropdown">
-                <button class="dropbtn" onclick="toggleDropdown()">
-                  Treatments
-                  <i class="fa-solid fa-plus"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="#service1" onclick="updateBreadcrumb('service1')">Service 1</a>
-                  <a href="#service2" onclick="updateBreadcrumb('Service2')">Service 2</a>
-                  <a href="#service3"onclick="updateBreadcrumb('Service3')">Service 3</a>
-                </div>
-              </div>
-              <div class="dropdown">
-                <button class="dropbtn" onclick="toggleDropdown()">
-                  Destinations
-                  <i class="fa-solid fa-plus"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="#service1"onclick="updateBreadcrumb('Service1')" >Service 1</a>
-                  <a href="#service2" onclick="updateBreadcrumb('Service2')">Service 2</a>
-                  <a href="#service3" onclick="updateBreadcrumb('Service3')">Service 3</a>
-                </div>
-              </div>
-              <a href="#Hospitals"onclick="updateBreadcrumb('Hospital')">Hospitals</a>
-              <a href="#FAQ"onclick="updateBreadcrumb('FAQ')">FAQ</a>
-              <a href="#Blog" onclick="updateBreadcrumb('Blog')">Blog</a>
-              <a href="#Request a Quote" onclick="updateBreadcrumb('Request a Quote')">Request a Quote</a>
-      
-              <div class="search-btn">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search" />
-              </div>
-            </div>
-            <div class="row banner-container">
-              <div class="col-md-6 col-sm-12 banner-content">
-                <nav aria-label="breadcrumb">
-                    <ol id="breadcrumb" class="breadcrumb">
-                        <!-- <li class="breadcrumb-item active" aria-current="page">Home</li> -->
-                    </ol>
-                </nav>
-                <h1>Total Knee Replacement</h1>
-                <p>Total knee replacement is a surgery to remove and replace the whole
-                    damaged knee joint with an artificial joint.</p>
-                <a href="#" class="btn1">Enquire Now</a>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <img src="/images/Orthopaedics.jpg" alt="disease" class="disease-img"/>
-              </div>
-            </div>
-          </section>
-    
 
+    <section id="header">
+      <div class="navbar">
+        <a href="#home" onclick="updateBreadcrumb('Home')">Home</a>
+        <a href="#about" onclick="updateBreadcrumb('About Us')">About Us</a>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="toggleDropdown()">
+            Treatments
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#service1" onclick="updateBreadcrumb('service1')"
+              >Service 1</a
+            >
+            <a href="#service2" onclick="updateBreadcrumb('Service2')"
+              >Service 2</a
+            >
+            <a href="#service3" onclick="updateBreadcrumb('Service3')"
+              >Service 3</a
+            >
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="toggleDropdown()">
+            Destinations
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#service1" onclick="updateBreadcrumb('Service1')"
+              >Service 1</a
+            >
+            <a href="#service2" onclick="updateBreadcrumb('Service2')"
+              >Service 2</a
+            >
+            <a href="#service3" onclick="updateBreadcrumb('Service3')"
+              >Service 3</a
+            >
+          </div>
+        </div>
+        <a href="#Hospitals" onclick="updateBreadcrumb('Hospital')"
+          >Hospitals</a
+        >
+        <a href="#FAQ" onclick="updateBreadcrumb('FAQ')">FAQ</a>
+        <a href="#Blog" onclick="updateBreadcrumb('Blog')">Blog</a>
+        <a href="#Request a Quote" onclick="updateBreadcrumb('Request a Quote')"
+          >Request a Quote</a
+        >
+
+        <div class="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search" />
+        </div>
+      </div>
+      <div class="row banner-container">
+        <div class="col-md-6 col-sm-12 banner-content">
+          <nav aria-label="breadcrumb">
+            <ol id="breadcrumb" class="breadcrumb">
+              <!-- <li class="breadcrumb-item active" aria-current="page">Home</li> -->
+            </ol>
+          </nav>
+          <h1>Total Knee Replacement</h1>
+          <p>
+            Total knee replacement is a surgery to remove and replace the whole
+            damaged knee joint with an artificial joint.
+          </p>
+          <a href="#" class="btn1">Enquire Now</a>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img
+            src="/images/Orthopaedics.jpg"
+            alt="disease"
+            class="disease-img"
+          />
+        </div>
+      </div>
+    </section>
     <!-- Main header Ends -->
+
+    <!-- Main body starts -->
+
+    <div class="container">
+      <div class="features">
+        <a href="#overview">Overview</a>
+        <a href="#eligibility">Eligibility</a>
+        <a href="#preparation">Preparation</a>
+        <a href="#aboutTreatment">Treatment</a>
+        <a href="#post-treat-care">Post-Treatment Care</a>
+        <a href="#recovery">Recovery Tips</a>
+        <a href="#faq">FAQ</a>
+        <a href="#story">Patient Story</a>
+      </div>
+      <div id="overview" class="heading">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h1>Treatment Overview</h1>
+            <p class="para">
+              Lorem incididunt ut labore ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+            <p class="para">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p class="para">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam.
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <img src="/images/desease1.png" alt="patient-img" />
+          </div>
+        </div>
+        <div class="horizontal"></div>
+      </div>
+      <div class="main">
+        <div class="article">
+          <!-- eligibility -->
+          <div id="eligibility" class="heading">
+            <h1>Eligibility For Treatment</h1>
+            <p class="para">
+              Any individual who has tried diet and exercise but failed to lose
+              weight is considered as a good candidate for gastric bypass.
+              Although gastric bypass aids in weight loss, it is not an
+              appropriate option for everyone. Based on the overall health and
+              certain medical guidelines, the doctor will decide whether you are
+              eligible for gastric bypass or not.
+            </p>
+            <p class="para">
+              In general, gastric bypass could be a good option if:
+            </p>
+            <ul>
+              <li>The BMI (body mass index) is 40 or more</li>
+              <li>
+                Your BMI is 30 or more with severe weight-related health
+                conditions like type-2 diabetes and high blood pressure
+              </li>
+              <li>
+                You are willing to make permanent changes in the lifestyle
+              </li>
+            </ul>
+          </div>
+          <div class="horizontal"></div>
+          <div id="preparation" class="heading">
+            <h1>Preparation Before Treatment</h1>
+            <p class="para">
+              Any individual who has tried diet and exercise but failed to lose
+              weight is considered as a good candidate for gastric bypass.
+              Although gastric bypass aids in weight loss, it is not an
+              appropriate option for everyone. Based on the overall health and
+              certain medical guidelines, the doctor will decide whether you are
+              eligible for gastric bypass or not.
+            </p>
+            <p class="para">
+              In general, gastric bypass could be a good option if:
+            </p>
+            <ul>
+              <li>The BMI (body mass index) is 40 or more</li>
+              <li>
+                Your BMI is 30 or more with severe weight-related health
+                conditions like type-2 diabetes and high blood pressure
+              </li>
+              <li>
+                You are willing to make permanent changes in the lifestyle
+              </li>
+            </ul>
+          </div>
+          <div class="horizontal"></div>
+          <div id="aboutTreatment" class="heading">
+            <h1>About Treatment</h1>
+            <p class="para">
+              Any individual who has tried diet and exercise but failed to lose
+              weight is considered as a good candidate for gastric bypass.
+              Although gastric bypass aids in weight loss, it is not an
+              appropriate option for everyone. Based on the overall health and
+              certain medical guidelines, the doctor will decide whether you are
+              eligible for gastric bypass or not.
+            </p>
+            <p class="para">
+              In general, gastric bypass could be a good option if:
+            </p>
+            <ul>
+              <li>The BMI (body mass index) is 40 or more</li>
+              <li>
+                Your BMI is 30 or more with severe weight-related health
+                conditions like type-2 diabetes and high blood pressure
+              </li>
+              <li>
+                You are willing to make permanent changes in the lifestyle
+              </li>
+            </ul>
+          </div>
+          <div class="horizontal"></div>
+          <div id="post-treat-care" class="heading">
+            <h1>Post-Treatment Care Treatment</h1>
+            <p class="para">
+              Any individual who has tried diet and exercise but failed to lose
+              weight is considered as a good candidate for gastric bypass.
+              Although gastric bypass aids in weight loss, it is not an
+              appropriate option for everyone. Based on the overall health and
+              certain medical guidelines, the doctor will decide whether you are
+              eligible for gastric bypass or not.
+            </p>
+            <p class="para">
+              In general, gastric bypass could be a good option if:
+            </p>
+            <ul>
+              <li>The BMI (body mass index) is 40 or more</li>
+              <li>
+                Your BMI is 30 or more with severe weight-related health
+                conditions like type-2 diabetes and high blood pressure
+              </li>
+              <li>
+                You are willing to make permanent changes in the lifestyle
+              </li>
+            </ul>
+          </div>
+          <div class="horizontal"></div>
+          <div id="recovery" class="heading">
+            <h1>Treatment Recovery Tips</h1>
+            <p class="para">
+              Any individual who has tried diet and exercise but failed to lose
+              weight is considered as a good candidate for gastric bypass.
+              Although gastric bypass aids in weight loss, it is not an
+              appropriate option for everyone. Based on the overall health and
+              certain medical guidelines, the doctor will decide whether you are
+              eligible for gastric bypass or not.
+            </p>
+            <p class="para">
+              In general, gastric bypass could be a good option if:
+            </p>
+            <ul>
+              <li>The BMI (body mass index) is 40 or more</li>
+              <li>
+                Your BMI is 30 or more with severe weight-related health
+                conditions like type-2 diabetes and high blood pressure
+              </li>
+              <li>
+                You are willing to make permanent changes in the lifestyle
+              </li>
+            </ul>
+          </div>
+          <div class="horizontal"></div>
+          <div id="faq" class="heading">
+            <h1>Treatment FAQs</h1>
+
+            <div class="accordion" id="accordionExample">
+              <div class="item">
+                <h2 class="question">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  ><span class="accordion-symbol">+</span>
+                      How do I know the
+                    clinic I am searching is verified?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Yes, pre and post treatment consultation can be done. You
+                    can speak to the doctor at the most appropriate time (before
+                    you decide to travel) to boost your confidence. The team at
+                    Mediretreats will also help you with arranging the OPD'S
+                    after the surgeries.
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <h2 class="question">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  ><span class="accordion-symbol">+</span>
+                  I can't travel alone so can some family member or friend of mine accompany me?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Yes, pre and post treatment consultation can be done. You
+                    can speak to the doctor at the most appropriate time (before
+                    you decide to travel) to boost your confidence. The team at
+                    Mediretreats will also help you with arranging the OPD'S
+                    after the surgeries.
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <h2 class="question">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  ><span class="accordion-symbol">+</span>
+                  Can I see my doctor before I decide and what about my post recovery?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Yes, pre and post treatment consultation can be done. You
+                    can speak to the doctor at the most appropriate time (before
+                    you decide to travel) to boost your confidence. The team at
+                    Mediretreats will also help you with arranging the OPD'S
+                    after the surgeries.
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <h2 class="question">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  ><span class="accordion-symbol">+</span>
+                  How do I share my reports and medical cases with the clinic of my choice?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Yes, pre and post treatment consultation can be done. You
+                    can speak to the doctor at the most appropriate time (before
+                    you decide to travel) to boost your confidence. The team at
+                    Mediretreats will also help you with arranging the OPD'S
+                    after the surgeries.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="horizontal"></div>
+          <div id="story"></div>
+        </div>
+        <div class="side-form"></div>
+      </div>
+    </div>
+
+    <div id="doctors-container"></div>
+
+    <div id="Hospital-container"></div>
+    <div id="Footer1"></div>
+    <div id="Footer2"></div>
+    <div id="Footer3"></div>
+
+    <!-- Main body ends -->
 
     <script src="script.js"></script>
   </body>
