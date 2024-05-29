@@ -20,6 +20,10 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+   <!-- link for coursal -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
   </head>
   <body>
     <!-- header section starts -->
@@ -341,9 +345,9 @@
                     data-bs-target="#collapseOne"
                     aria-expanded="true"
                     aria-controls="collapseOne"
-                  ><span class="accordion-symbol">+</span>
-                      How do I know the
-                    clinic I am searching is verified?
+                  >
+                    <span class="accordion-symbol">+</span>
+                    How do I know the clinic I am searching is verified?
                   </button>
                 </h2>
                 <div
@@ -369,8 +373,10 @@
                     data-bs-target="#collapseOne"
                     aria-expanded="true"
                     aria-controls="collapseOne"
-                  ><span class="accordion-symbol">+</span>
-                  I can't travel alone so can some family member or friend of mine accompany me?
+                  >
+                    <span class="accordion-symbol">+</span>
+                    I can't travel alone so can some family member or friend of
+                    mine accompany me?
                   </button>
                 </h2>
                 <div
@@ -396,8 +402,10 @@
                     data-bs-target="#collapseOne"
                     aria-expanded="true"
                     aria-controls="collapseOne"
-                  ><span class="accordion-symbol">+</span>
-                  Can I see my doctor before I decide and what about my post recovery?
+                  >
+                    <span class="accordion-symbol">+</span>
+                    Can I see my doctor before I decide and what about my post
+                    recovery?
                   </button>
                 </h2>
                 <div
@@ -423,8 +431,10 @@
                     data-bs-target="#collapseOne"
                     aria-expanded="true"
                     aria-controls="collapseOne"
-                  ><span class="accordion-symbol">+</span>
-                  How do I share my reports and medical cases with the clinic of my choice?
+                  >
+                    <span class="accordion-symbol">+</span>
+                    How do I share my reports and medical cases with the clinic
+                    of my choice?
                   </button>
                 </h2>
                 <div
@@ -444,21 +454,202 @@
             </div>
           </div>
           <div class="horizontal"></div>
-          <div id="story"></div>
+          <div id="story" class="heading">
+            <h1>Patient Stories and Video</h1>
+            <div class="row mt-5">
+              <div class="item">
+                <div class="card">
+                  <div class="card-title">
+                    <h5>Underwent Procedure <br />for retinal detachment</h5>
+                    <i class="fa-solid fa-quote-right"></i>
+                  </div>
+                  <iframe
+                  width="400"
+                  height="250"
+                  src="https://www.youtube.com/embed/DIgBkd23QVM?si=QWY5MfjDcc3SPquV"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+                  <div class="card-footer">
+                    <!-- Add your footer content here -->
+                    <div class="card-footer">
+                      <img src="/images/profile.jpg" alt="profile image" />
+                      <div>
+                        <p>Luke Olfert</p>
+                        <p>New York,USA</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
         </div>
-        <div class="side-form"></div>
+        <div class="side-form heading">
+          <h1 class="form-heading">Need Help?</h1>
+          <p>Just let us know.We will be happy to assist you</p>
+          <input type="text"placeholder="Full Name" class="content">
+          <input type="email"placeholder="Email" class="content">
+          <input type="number"placeholder="Phone Number"class="content">
+          <textarea name="desc" id="desc" placeholder="Describe your treatment requirement"class="content"></textarea>
+        <button class="btn2"> Send Enquiry</button>
+        </div>
       </div>
     </div>
+    </div>
+    <!-- Doctors container -->
+<div id="doctors-container">
+   <h4 class="title">Doctors</h4>
+   <p class="newpara">Top Orthopedic <span class="span">Doctors</span></p>
+   <div class="owl-carousel owl-theme">
+    <!-- First Card -->
+    <div class="item">
+      <div class="card">
+        <div class="box">
+        </div>
+        <div class="card-footer">
+          <!-- Add your footer content here -->
+          <div>
+            <p style="color: red;">dr.Faique falke</p>
+            <p style="font-weight: 500;">Musaffah Industrial - Abu Dhab</p>
+            <p>Doctor Degree & Specialist</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
 
-    <div id="doctors-container"></div>
+<!-- Hospital container -->
+<div id="hospital-container">
+   <h4 class="title">Hospitals</h4>
+   <p class="newpara">Recommended <span class="span">Hospitals</span></p>
+   <div class="owl-carousel owl-theme">
+    <!-- First Card -->
+    <div class="item">
+      <div class="card">
+          <img src="/images/hospital1.png" alt="hosp1">
+        
+        <div class="card-footer">
+          <!-- Add your footer content here -->
+          <div>
+            <p style="font-weight: 500;">Apollo Hospital</p>
+            <p style="color: red;">Banglore</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <div id="Hospital-container"></div>
-    <div id="Footer1"></div>
-    <div id="Footer2"></div>
-    <div id="Footer3"></div>
+<p style="text-align: center;font-weight: 500;">Don't hesitate, contact us for better help and services. <a href="#" style="color: red;">Explore all Hospitals</a></p>
+    
+<!-- first footer starts -->
+<div class="footer1">
+  <p style="font-size: 20px;">Stay healthy and strong to enjoy life</p>
+  <p style="font-size: 40px;font-weight: 500;">We have team of healthcare experts</p>
+  <div class="sub-footer1">
+    <button class="btn3" style="font-weight: 500;">Get In Touch</button>
+    <p style="font-weight: 500;font-size: 20px;">+91 898 777 9999</p>
+  </div>
+</div>
 
-    <!-- Main body ends -->
+<!-- second footer -->
 
-    <script src="script.js"></script>
+<div class="footer2">
+<div class="last-footer1">
+<div>
+  <h3>Important Links</h3>
+<ul>
+  <li><a href="home">Home</a></li>
+  <li><a href="about">About</a></li>
+  <li><a href="faq">FAQs</a></li>
+  <li><a href="blog">Blog</a></li>
+  <li><a href="contact">Contact Us</a></li>
+</ul>
+</div>
+<div>
+  <h3>Important Links</h3>
+<ul>
+  <li><a href="#">Apollo Hospital Delhi</a></li>
+  <li><a href="#">Medanta Hospital Gurgaon</a></li>
+  <li><a href="#">Max Hospital Delhi</a></li>
+  <li><a href="#">leolat basrital Manhat</a></li>
+  <li><a href="#">Artemis hospital Guraaon</a></li>
+</ul>
+</div>
+<div>
+  <h3>Speciality Treatments</h3>
+<ul>
+  <li><a href="#">Knee Replacement Surgeon</a></li>
+  <li><a href="#">Urologist</a></li>
+  <li><a href="#">Spine Surgeon</a></li>
+  <li><a href="#">Cardiologist</a></li>
+  <li><a href="#">ENT Surgeons</a></li>
+  <li><a href="#">Orthopedic</a></li>
+</ul>
+</div>
+<div>
+  <div class="notification">
+     <div class="sub-notification">
+      <i class="fa-solid fa-user-doctor"></i>
+      <div>
+        <p>Are you Doctor/hospital</p>
+        <p style="font-weight: 500;">Join Mediretreats</p>
+      </div>
+     </div>
+     <p>Lorem, ipsum dolor sit amet consectetur</p>
+  </div>
+  <h3 style="margin-top:30%">Speciality Treatments</h3>
+<ul>
+  <li><a href="#">Knee Replacement Surgeon</a></li>
+  <li><a href="#">Urologist</a></li>
+  <li><a href="#">Spine Surgeon</a></li>
+  <li><a href="#">Cardiologist</a></li>
+  <li><a href="#">ENT Surgeons</a></li>
+  <li><a href="#">Orthopedic</a></li>
+</ul>
+</div>
+</div>
+<div class="last-footer2">
+<img src="/images/logo.jpeg" alt="logo"class="logo">
+<div>
+  <h3>About Aafiva Mediretreats</h3>
+  <p style="font-size: 10px; width: 400px;">Aafiya Mediretreats is a free, confidential, independent resource for patients
+    and industry providers. Our mission is to provide a central portal where pa-
+    tients, Medical Tourism providers, hospitals, clinics, employers, and insurance
+    companies can all find the information they need. Our site focuses on patients
+    looking for specific knowledge in the fields of medical tourism, dental tourism,</p>
+</div>
+<div class="social-media">
+<p>Follow us On</p>
+<div class="social-icon">
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-youtube"></i>
+  <i class="fa-brands fa-twitter"></i>
+</div>
+<p>Customer Service</p>
+</div>
+</div>
+</div>
+
+<!-- Third footer -->
+<div class="footer3">
+<p>Copyright © 2020 Aafiya Mediretreats. All Rights Reserved. Designed by Ideamagix.</p>
+<div class="sub-footer3">
+<p>Terms And Conditions</p>
+<p>Privacy Policy</p>
+</div>
+</div>
+<!-- Main body ends -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js">
+    </script>
+
   </body>
 </html>

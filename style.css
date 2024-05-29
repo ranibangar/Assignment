@@ -1,8 +1,10 @@
-*,body {
+*,
+body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* Header section Starts */
@@ -101,137 +103,135 @@ body {
 
 /* <!-- Main header starts --> */
 #header {
-    background-image: url(/images/backimg.jpg);
-    height: 70vh;
-    background-size: cover;
-    background-position: center;
-    margin-top: 5px;
+  background-image: url(/images/backimg.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
 }
 
 /* <!-- Main header Ends --> */
 .navbar {
-    overflow: hidden;
-    background-color: #2fc3f4;
-    
+  overflow: hidden;
+  background-color: #2fc3f4;
 }
 .navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;    
-
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #fff;
-    color: black;
-
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #fff;
+  color: black;
 }
 .dropdown {
-    float: left;
-    overflow: hidden;
+  float: left;
+  overflow: hidden;
 }
 .dropdown .dropbtn {
-    cursor: pointer;
-    font-size: 16px; 
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 20px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 .dropdown-content a:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
-.search-btn{
-    background-color: #1970c8;
-    width: 200px;
-    margin-right: 30px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 10px;
+.search-btn {
+  background-color: #1970c8;
+  width: 200px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
 }
-.navbar input{
-    border: none;
-    background-color: transparent;
-    color:#fff;
+.navbar input {
+  border: none;
+  background-color: transparent;
+  color: #fff;
 }
-.navbar input::placeholder{
-    color: white;
+.navbar input::placeholder {
+  color: white;
 }
-.navbar i{
-    color: #fff;
+.navbar i {
+  color: #fff;
 }
-.banner-container{
-    display: flex;
-    justify-content: center;
-    position: relative;
+.banner-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
-.banner-content{
-    padding-top: 5%;
-    padding-left: 10% !important;
-    color: #fff;
+.banner-content {
+  padding-top: 5%;
+  padding-left: 10% !important;
+  color: #fff;
 }
-.disease-img{
-   width: 40%;
-   height: 420px;
-   border-radius: 45%;
-   border-bottom-right-radius: 0;
-   border-top-right-radius: 0;
-   right: 0;
-   position: absolute;
-   border-left: 16px solid #1970c8;
+.disease-img {
+  width: 40%;
+  height: 420px;
+  border-radius: 45%;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  right: 0;
+  position: absolute;
+  border-left: 16px solid #1970c8;
 }
-.breadcrumb{
-    color: #fff;
+.breadcrumb {
+  color: #fff;
 }
-.right-arrow{
-    margin-left: 5px;
-    color:rgb(138, 9, 9);
+.right-arrow {
+  margin-left: 5px;
+  color: rgb(138, 9, 9);
 }
-.banner-content a{
-    text-decoration: none;
-    background-color: #1970c8;
-    color: #fff;
-    padding: 15px 25px;
-    font-weight: 700;
+.banner-content a {
+  text-decoration: none;
+  background-color: #1970c8;
+  color: #fff;
+  padding: 15px 25px;
+  font-weight: 700;
 }
-.banner-content p{
-    margin-bottom: 50px;
+.banner-content p {
+  margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
-    .disease-img {
-        display: none;
-    }
+  .disease-img {
+    display: none;
+  }
 }
 
 /* main body starts */
 
-.features{
+.features {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -239,17 +239,17 @@ body {
   margin-top: 20px;
   border-bottom: 1px solid lightgrey;
 }
-.features a{
+.features a {
   text-decoration: none;
   color: black;
   font-size: 20px;
-  font-weight:500 ;
+  font-weight: 500;
   flex: 0 1 auto;
   position: relative;
   margin-bottom: 50px;
 }
-.features a:focus::after{
-  content: '';
+.features a:focus::after {
+  content: "";
   display: block;
   width: 100%;
   height: 3px;
@@ -260,82 +260,313 @@ body {
 }
 @media (max-width: 768px) {
   .features a {
-    flex: 1 1 calc(50% - 20px); 
+    flex: 1 1 calc(50% - 20px);
   }
 }
 
 @media (max-width: 480px) {
   .features a {
     flex: 1 1 calc(100% - 20px);
-    font-size: 18px; 
+    font-size: 18px;
   }
 }
-.heading{
+.heading {
   margin-top: 30px;
 }
 
-#overview p{
+#overview p {
   margin-top: 30px;
 }
-#overview img{
+#overview img {
   width: 100%;
-  height:350px;
+  height: 350px;
 }
-.horizontal{
+.horizontal {
   border: 1px dashed #2fc3f4;
   margin-top: 30px;
 }
 
-.main{
+.main {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 }
-.article{
+.article {
   width: 60%;
 }
-.side-form{
+.side-form {
   width: 30%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.content {
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid lightgrey;
+}
+.btn2 {
+  border: none;
+  padding: 15px;
+  background-color: #2fc3f4;
+  border-radius: 6px;
+  color: #fff;
+}
+.form-heading {
+  font-family: "Lucida Handwriting";
+  color: #2fc3f4;
 }
 @media (max-width: 1024px) {
-  .article, .side-form {
+  .article,
+  .side-form {
     width: 100%;
   }
 }
 
 /* Media Query for small screens */
 @media (max-width: 768px) {
-  .article, .side-form {
+  .article {
     width: 100%;
   }
 }
-.heading ul{
+@media (max-width: 768px) {
+  .side-form {
+    display: none;
+  }
+}
+.heading ul {
   margin-top: 20px;
   list-style-type: none;
 }
-.heading ul li{
+.heading ul li {
   position: relative;
   padding-left: 20px;
   margin-bottom: 10px;
 }
-.heading ul li::before{
-  content: '';
+.heading ul li::before {
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
   width: 10px;
   height: 10px;
-  border:1px solid #2fc3f4;
+  border: 1px solid #2fc3f4;
   border-radius: 50%;
 }
-.accordion{
+.accordion {
   border-bottom: 1px solid lightgray;
 }
 .accordion-symbol {
   content: "+";
   color: #2fc3f4;
   font-size: 20px;
-  margin-left: 10px;
+  margin-right: 10px;
+}
+.card {
+  width: 450px;
+  padding: 20px 20px 0 20px;
+  margin: 0 auto;
 }
 
+.card-title {
+  display: flex;
+  justify-content: space-between;
+}
+.card-title i {
+  font-size: 60px;
+  color: rgb(138, 9, 9);
+}
+.card-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  gap: 10px;
+  background-color: #fff !important;
+  margin-top: 5px;
+}
+.card-footer img {
+  width: 40px !important;
+  height: 40px;
+  border-radius: 50%;
+}
 /* main body Ends */
+#doctors-container {
+  background-color: rgb(202, 239, 249);
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.title {
+  color: rgb(138, 9, 9);
+  font-family: "Lucida Handwriting";
+}
+.newpara {
+  font-size: 24px;
+  font-weight: 500;
+}
+.span {
+  color: #2fc3f4;
+}
+
+#doctors-container.card {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+.box {
+  width: 350px;
+  height: 200px;
+  background-color: rgb(242, 183, 225);
+  align-items: center;
+}
+#doctors-container .card-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#doctors-container .card-footer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#hospital-container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  text-align: center !important;
+  padding: 20px;
+}
+#hospital-container .card {
+  border: 1px dashed red;
+  padding: 20px;
+}
+
+/* first footer starts */
+.footer1{
+  width: 100%;
+  height: auto;
+  background-color: #2fc3f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+color: white;
+padding: 20px;
+}
+.sub-footer1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 20px;
+}
+.btn3{
+  background-color: #1970c8;
+  padding: 10px;
+  border: none;
+  color: #fff;
+}
+
+.footer2{
+  width: 100%;
+  background-image: url(/images/footer-img.jpg);
+  background-size: cover;
+  height: auto;
+  background-position: center;
+  padding: 30px;
+  color: #fff;
+}
+.last-footer1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.last-footer1 ul {
+  margin-top: 20px;
+  list-style-type: none;
+  
+}
+.last-footer1 ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  
+}
+.last-footer1 ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.last-footer1 ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  border: 1px solid #2fc3f4;
+}
+
+.notification{
+  width: 300px;
+  height: auto;
+  background-color: #fff;
+  padding: 5px;
+  margin: -60px;
+  border-radius: 10px;
+  color: black !important;
+}
+.sub-notification{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0;
+padding: 10px;
+
+}
+.sub-notification i{
+  font-size: 40px;
+}
+.footer3{
+  background-color: #2fc3f4;
+  display:flex;
+  padding:10px 20px;
+  color: #fff;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.sub-footer3{
+  display: flex;
+  gap: 20px;
+}
+
+.last-footer2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icon{
+  display: flex;
+  justify-content: space-between;
+}

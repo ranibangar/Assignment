@@ -1,0 +1,51 @@
+<div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="card">
+                    <div class="card-title">
+                      <h5>Underwent Procedure <br />for retinal detachment</h5>
+                      <i class="fa-solid fa-quote-right"></i>
+                    </div>
+                    <iframe
+                      width="400"
+                      height="250"
+                      src="https://www.youtube.com/embed/DIgBkd23QVM?si=QWY5MfjDcc3SPquV"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe>
+  
+                    <div class="card-footer">
+                      <img src="/images/profile.jpg" alt="profile image" />
+                      <div>
+                        <p>Luke Olfert</p>
+                        <p>New York,USA</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card">
+                    <div class="card-title">
+                      <h5>Underwent Colonoscopy and<br>
+                        Medical Management</h5>
+                      <i class="fa-solid fa-quote-right"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit, sed do eiusmod tempor incididunt ut labore et
+                      dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex
+                      ea commodo consequat. Duis aute irure dolor in
+                      reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur.</p>
+                      <div class="card-footer">
+                        <img src="/images/profile.jpg" alt="profile image" />
+                        <div>
+                          <p>Luke Olfert</p>
+                          <p>Sydney, Astrlia</p>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
